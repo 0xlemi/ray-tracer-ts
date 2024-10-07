@@ -1,0 +1,26 @@
+{
+  "name": "ray-tracer-ts",
+  "version": "1.0.0",
+  "description": "Ray Tracer in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "build:run": "npm run build && npm start",
+    "test": "jest"
+  },
+  "keywords": [
+    "ray tracer",
+    "typescript"
+  ],
+  "author": "lemi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  }
+}
