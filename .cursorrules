@@ -1,0 +1,5 @@
+- Use of TypeScript for all components and modules
+- Proper import/export structure
+- When asked to change something, only change that. Do not add extra functionality or try to refactor unless asked
+- Dont add explicit return types unless necesary. Is better to let typescript infer the type when possible
+- We are going to be using the testing library Jest and React Testing Library. Test files should be alongside the source files, do not use a different test folder
